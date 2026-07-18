@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  
+  --color-editorial-bg: #F9FBF9;
+  --color-editorial-text: #1A2E1A;
+  --color-editorial-glass: rgba(255, 255, 255, 0.82);
+  --color-editorial-border: rgba(34, 197, 94, 0.12);
+}
+
+/* Custom Base Scroll Styles */
+html {
+  scroll-behavior: smooth;
+  font-family: var(--font-sans);
+  background-color: var(--color-editorial-bg);
+}
+
+body {
+  color: var(--color-editorial-text);
+  background-color: var(--color-editorial-bg);
+  overflow-y: scroll;
+}
+
+/* Glassmorphism custom classes for extra depth */
+.glass-panel {
+  background: var(--color-editorial-glass);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid var(--color-editorial-border);
+}
+
+/* Premium Editorial aesthetic typography */
+h1, h2, h3 {
+  font-family: var(--font-display);
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Flora AI",
+  "description": "Your Smart Plant Companion - AI-powered plant health monitoring, care tracking, and identification foundation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
