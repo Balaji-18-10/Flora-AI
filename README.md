@@ -167,12 +167,6 @@ Flora AI uses AI to analyze plant images, detect health conditions, and transfor
 
 ---
 
-# 📸 Screenshots
-
-*Add screenshots of the Home, Dashboard, Plant Analysis, AI Chat, and History pages here.*
-
----
-
 # 👨‍💻 Team
 
 Developed with ❤️ for the **OpenSwarm Hackathon**.
